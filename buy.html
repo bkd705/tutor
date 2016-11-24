@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Smartphones</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>The Origin of Smart Phones</h1>
+      <h2>The story of how smart phones came to be and changed society</h2>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="buy.html">Buy Now</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <form action="submit.html">
+        <fieldset name="contactinformation">
+          <legend>Contact Information</legend>
+          <div class="form-group">
+            <label for="firstname">First Name</label>
+            <input type="text" name="firstname" placeholder="First Name"/>
+          </div>
+
+          <div class="form-group">
+            <label for="lastname">Last Name</label>
+            <input type="text" name="lastname" placeholder="Last Name"/>
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-Mail</label>
+            <input type="text" name="email" placeholder="E-Mail"/>
+          </div>
+          <div class="form-group">
+            <label for="phonenumber">Phone Number</label>
+            <input type="text" name="phonenumber" placeholder="Phone Number"/>
+          </div>
+        </fieldset>
+
+        <fieldset name="billing">
+          <legend>Billing Information</legend>
+          <div class="form-group">
+            <label for="address">Address</label>
+            <input type="text" name="address" placeholder="Address"/>
+          </div>
+
+          <div class="form-group">
+            <label for="postalcode">Postal Code</label>
+            <input type="text" name="postalcode" placeholder="Postal Code"/>
+          </div>
+
+          <div class="form-group">
+            <label for="province">Province</label>
+            <select name="province">
+              <option value="Ontario">Ontario</option>
+              <option value="Quebec">Quebec</option>
+              <option value="Alberta">Alberta</option>
+              <option value="Saskatchewan">Saskatchewan</option>
+              <option value="Newfoundland">Newfoundland</option>
+              <option value="PEI">Prince Edward Island</option>
+              <option value="British Columbia">British Columbia</option>
+              <option value="New Brunswick">New Brunswick</option>
+              <option value="Manitoba">Manitoba</option>
+              <option value="Northwest Territories">Northwest Territories</option>
+              <option value="Yukon">Yukon</option>
+              <option value="Nunavut">Nunavut</option>
+            </select>
+          </div>
+        </fieldset>
+
+        <fieldset name="options">
+          <legend>Options</legend>
+          <div class="form-group">
+            <label for="hobbies">Hobbies</label><br>
+            <input type="checkbox" name="hobbies" value="Coding">Coding <br>
+            <input type="checkbox" name="hobbies" value="Biking">Biking <br>
+            <input type="checkbox" name="hobbies" value="Video Games">Video Games <br>
+            <input type="checkbox" name="hobbies" value="Reading">Reading <br>
+          </div>
+
+          <div class="form-group">
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" value="male"> Male <br>
+            <input type="radio" name="gender" value="female"> Female <br>
+            <input type="radio" name="gender" value="other"> Other <br>
+          </div>
+        </fieldset>
+
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+
+  </body>
+</html>

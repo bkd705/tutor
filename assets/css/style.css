@@ -1,0 +1,109 @@
+/* Resources for learning more CSS
+*  Always trust W3Schools
+*  Net Ninja - Styling HTML Forms
+* GITHUB PAGES FOR NEXT WEEK
+*/
+
+
+body {
+  padding: 0;
+  font-family: monospace;
+  background: url('../img/background.jpeg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+header {
+  margin: 0 auto;
+  max-width: 960px;
+  text-align: center;
+  background: white;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  padding: 25px;
+}
+
+nav ul {
+  display: inline;
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: orange;
+}
+
+main {
+  max-width: 960px;
+  margin: 100px auto;
+  background: white;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  padding: 25px;
+}
+
+footer {
+  max-width: 960px;
+  margin: 0 auto;
+  background: white;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  padding: 25px;
+  text-align: center;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+/* FORM STYLES */
+
+input[type=text], select {
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: white;
+}
+
+button {
+  border-radius: 3px;
+  width: 200px;
+  margin-left: calc(50% - 100px);
+  margin-top: 20px;
+  padding: 5px 10px;
+  background-color: white;
+  color: green;
+  border: 1px solid green;
+  transition: all 250ms ease-in-out;
+}
+
+button:hover {
+  color: white;
+  background-color: green;
+  cursor: pointer;
+}
+
+label {
+  padding-bottom: 5px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  float: left;
+  padding: 10px;
+}
