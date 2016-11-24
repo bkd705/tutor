@@ -20,15 +20,15 @@
     </header>
 
     <main>
-      <h2>You Submitted Your Order!</h2>
+      <h2 id="header">You Submitted Your Order!</h2>
     </main>
 
     <script>
+      console.log('timeer started')
       setTimeout(function() {
-        alert('redirected')
-      },1000)
-
-      console.log(window)
+        window.location = "./index.html"
+        console.log('timer ended')
+      }, 5000)
     </script>
   </body>
 </html>
